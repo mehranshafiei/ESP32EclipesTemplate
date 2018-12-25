@@ -7,12 +7,9 @@
 
 #include "WifiHandler.h"
 
-WifiHandler::WifiHandler() {
-	// TODO Auto-generated constructor stub
-
-}
-
-WifiHandler::~WifiHandler() {
-	// TODO Auto-generated destructor stub
+void WifiHandler::Initialize()
+{
+	printf("Initializing Wifi Handler\n");
+	m_wifi_event_group = xEventGroupCreate();
 }
 
