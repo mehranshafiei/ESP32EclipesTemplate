@@ -21,6 +21,7 @@ public:
 	}
 
 	void Initialize();
+	bool ConnectToWifi(uint8_t* idIn,uint8_t* passwordIn);
 
 private:
 	WifiHandler()
